@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Munchkin</string>
+    <string name="switch_players">Switch</string>
+    <string name="main_player">Манчкин</string>
+    <string name="count">Счет</string>
+    <string name="treasures">Сокровища</string>
+    <string name="level">Уровень</string>
+    <string name="monsters">Монстры</string>
+    <string name="editor_fail_start">Добавте других игроков</string>
+    <string name="editor_fail_zero">Игроков больше нет</string>
+    <string name="welcome">Приветствую тебя Манчкин? </string>
+    <string name="fight">С кем ты готов сразиться сегодня?</string>
+    <string name="start_game">Начать игру</string>
+    <string name="add_player">Добавить</string>
+    <string name="delete_player">Удалить</string>
+    <string name="change_main">Поменять</string>
+    <string name="entire_name">Введите имя</string>
+    <string name="level_of_players">Уровень противников</string>
+</resources>

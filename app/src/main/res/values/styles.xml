@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FFC107</item>
+        <item name="colorPrimaryDark">#FFA000</item>
+        <item name="colorAccent">#BCAAA4</item>
+    </style>
+
+
+    <style name="ButtonMunchkin">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">48dp</item>
+        <item name="android:backgroundTint">#BCAAA4</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="ButtonFrMain">
+        <item name="android:background">@drawable/minus</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="ButtonFrPlayer">
+        <item name="android:background">@drawable/add</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

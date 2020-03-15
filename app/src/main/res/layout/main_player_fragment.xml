@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/scrollview"
+    android:background="@drawable/welcome_fr_b"
+    >
+    <!-- Here you put the rest of your current view-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_player"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp" />
+        <EditText
+            android:id="@+id/name_race_player_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:hint="Раса"
+            android:layout_marginBottom="16dp" />
+        <EditText
+            android:id="@+id/name_class_player_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:hint="Класс"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/count"
+            android:textAllCaps="true"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:id="@+id/player_one_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/treasures"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/del_jewelry"
+                android:gravity="center_horizontal"
+                style="@style/ButtonFrMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_margin="8dp"/>
+            <TextView
+                android:gravity="center_horizontal"
+                android:id="@+id/player_one_jewerly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="14sp"
+                android:paddingBottom="16dp" />
+
+            <Button
+                android:id="@+id/add_jewelry"
+                android:gravity="center_horizontal"
+                style="@style/ButtonFrMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:layout_margin="8dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/level"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/del_level"
+                android:gravity="center_horizontal"
+                style="@style/ButtonFrMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_margin="8dp"/>
+            <TextView
+                android:gravity="center_horizontal"
+                android:id="@+id/player_one_level"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="14sp"
+                android:paddingBottom="16dp"/>
+
+            <Button
+                android:id="@+id/add_level"
+                android:gravity="center_horizontal"
+                style="@style/ButtonFrMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:layout_margin="8dp"/>
+        </LinearLayout>
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/monsters"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/del_monster"
+                android:gravity="center_horizontal"
+                style="@style/ButtonFrMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_margin="8dp"/>
+            <TextView
+                android:gravity="center_horizontal"
+                android:id="@+id/player_one_monsters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="14sp"
+                android:paddingBottom="16dp"/>
+
+            <Button
+                android:id="@+id/add_monster"
+                android:gravity="center_horizontal"
+                style="@style/ButtonFrMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:layout_margin="8dp" />
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_button"
+            android:id="@+id/change_players"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:text="@string/change_main">
+
+        </Button>
+    </LinearLayout>
+</ScrollView>
